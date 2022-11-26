@@ -11,8 +11,11 @@ if __name__ == '__main__':
         exit(1)
 
     count = 0
+    sum = 0
     for item in A:
         if item % 5 == 0:
             count += 1
+            sum += item
 
     print(count)
+    print(sum)
